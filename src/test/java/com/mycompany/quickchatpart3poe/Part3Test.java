@@ -23,7 +23,7 @@ public class Part3Test {
         chat.addSampleMessages();
     }
 
-    // Test 1: Sent messages array
+    
     @Test
     public void testSentMessagesArray() {
 
@@ -36,7 +36,7 @@ public class Part3Test {
                 sent[1].getMessage());
     }
 
-    // Test 2: Longest stored message
+    
     @Test
     public void testLongestMessage() {
 
@@ -46,7 +46,7 @@ public class Part3Test {
         assertEquals(expected, chat.getLongestMessage());
     }
 
-    // Test 3: Search using the supplied number
+    
     @Test
     public void testSearchMessageID() {
 
@@ -56,7 +56,7 @@ public class Part3Test {
         assertEquals("It is dinner time!", result.getMessage());
     }
 
-    // Test 4: Search by recipient
+    
     @Test
     public void testSearchRecipient() {
 
@@ -70,7 +70,7 @@ public class Part3Test {
                 results[1].getMessage());
     }
 
-    // Test 5: Delete a message using its hash
+    
     @Test
     public void testDeleteMessage() {
 
@@ -84,7 +84,7 @@ public class Part3Test {
         assertNull(chat.searchMessageID("MSG002"));
     }
 
-    // Test 6: Display message report
+    
     @Test
     public void testDisplayReport() {
 

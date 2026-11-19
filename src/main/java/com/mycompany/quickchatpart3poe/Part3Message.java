@@ -17,7 +17,6 @@ class Part3Message {
     private String message;
     private String messageHash;
     private String flag;
-    
     public String getMessage;
     
 

@@ -32,7 +32,7 @@ messageCount++;
 System.out.println("Message storage is full.");
 }
 }
-// Return all sent messages
+
 public Part3Message[] getSentMessages() {
 Part3Message[] sent = new Part3Message[messageCount];
 int count = 0;
@@ -48,7 +48,7 @@ result[i] = sent[i];
 }
 return result;
 }
-// Return all stored messages
+
 public Part3Message[] getStoredMessages() {
 Part3Message[] stored = new Part3Message[messageCount];
 int count = 0;
@@ -64,7 +64,7 @@ result[i] = stored[i];
 }
 return result;
 }
-// Save messages to JSON
+
 public void saveMessages() {
 JSONArray jsonArray = new JSONArray();
 for (int i = 0; i < messageCount; i++) {
@@ -114,7 +114,7 @@ System.out.println("Error loading messages: " + e.getMessage());
 System.out.println("Invalid JSON data: " + e.getMessage());
 }
 }
-// Display one message
+
 public void displayMessage(Part3Message message) {
 System.out.println("Message ID: " + message.getMessageID());
 System.out.println("Sender: " + message.getSender());
