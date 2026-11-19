@@ -1,0 +1,42 @@
+[
+    {
+        "flag": "Sent",
+        "sender": "QuickChat User",
+        "recipient": "+27834557896",
+        "messageID": "MSG001",
+        "messageHash": "f9cf21fd2dfa9005d837ce8e3b1769f7a406c5c9228d25fcb328c671322cb3ec",
+        "message": "Did you get the cake?"
+    },
+    {
+        "flag": "Stored",
+        "sender": "QuickChat User",
+        "recipient": "+27838884567",
+        "messageID": "MSG002",
+        "messageHash": "e55c3fcc4f4e7b874be87822774304e67188d26b1c0e5e8f55dcf5f67bd3a188",
+        "message": "Where are you? You are late! I have asked you to be on time."
+    },
+    {
+        "flag": "Disregard",
+        "sender": "QuickChat User",
+        "recipient": "+27834484567",
+        "messageID": "MSG003",
+        "messageHash": "659912a9524bd788994462494e9b673519ca00fcb260e989c30a90261ea42472",
+        "message": "Yohoooo, I am at your gate."
+    },
+    {
+        "flag": "Sent",
+        "sender": "QuickChat User",
+        "recipient": "0838884567",
+        "messageID": "MSG004",
+        "messageHash": "5b82f89520d5d491cfd027104de5752d04a7a723ca9d226d3e7bbefd82ab3ae0",
+        "message": "It is dinner time!"
+    },
+    {
+        "flag": "Stored",
+        "sender": "QuickChat User",
+        "recipient": "+27838884567",
+        "messageID": "MSG005",
+        "messageHash": "91dd399ac1c410047527be2dab7b52756cfa05f65597f2153b6b48e94d321bbc",
+        "message": "Ok, I am leaving without you."
+    }
+]
